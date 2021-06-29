@@ -1,4 +1,4 @@
-package exceptions;
+package com.atos.airfrance.codingame.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

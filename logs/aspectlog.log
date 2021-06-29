@@ -1,0 +1,40 @@
+2021-06-29 08:10:47,381 [http-nio-8080-exec-1] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 3d0bc58c-8a3c-4c56-86cc-7938ace58f13
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [AGOTSI, Komi, ssss@ss.com, ssss, 19, M, france]
+
+2021-06-29 08:10:47,747 [http-nio-8080-exec-1] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 367 ms [REQUESTED_ID: 3d0bc58c-8a3c-4c56-86cc-7938ace58f13] [API: com.atos.airfrance.codingame.controllers.UserController.add] 
+ [RESPONSE(OUTPUT): <201 CREATED Created,User(id=4, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M),[]>]
+2021-06-29 08:10:48,942 [http-nio-8080-exec-3] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: f5625b55-fddb-41d6-b050-703077f51455
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [AGOTSI, Komi, ssss@ss.com, ssss, 19, M, france]
+
+2021-06-29 08:10:48,949 [http-nio-8080-exec-3] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 7 ms [REQUESTED_ID: f5625b55-fddb-41d6-b050-703077f51455] [API: com.atos.airfrance.codingame.controllers.UserController.add] 
+ [RESPONSE(OUTPUT): <201 CREATED Created,User(id=5, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M),[]>]
+2021-06-29 08:10:51,008 [http-nio-8080-exec-4] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: d66526f2-1bdd-4e47-9d5c-0ba6cd634a62
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [AGOTSI, Komi, ssss@ss.com, ssss, 19, M, france]
+
+2021-06-29 08:10:51,013 [http-nio-8080-exec-4] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 5 ms [REQUESTED_ID: d66526f2-1bdd-4e47-9d5c-0ba6cd634a62] [API: com.atos.airfrance.codingame.controllers.UserController.add] 
+ [RESPONSE(OUTPUT): <201 CREATED Created,User(id=6, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M),[]>]
+2021-06-29 08:10:56,444 [http-nio-8080-exec-5] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: ae1285dd-2ac7-4871-bb1c-99e71f33eafe
+HOST: localhost:8080 HttpMethod: GET
+URI: /api/users/1
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.get
+Arguments(Inputs): [1]
+
+2021-06-29 08:10:56,473 [http-nio-8080-exec-5] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 30 ms [REQUESTED_ID: ae1285dd-2ac7-4871-bb1c-99e71f33eafe] [API: com.atos.airfrance.codingame.controllers.UserController.get] 
+ [RESPONSE(OUTPUT): <200 OK OK,ResponseDTO(status=200 OK, message=Success!, details=null, body=User(id=1, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M)),[]>]

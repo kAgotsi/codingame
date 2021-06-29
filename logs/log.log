@@ -1,0 +1,62 @@
+2021-06-29 08:10:39,002 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2021-06-29 08:10:39,012 [main] INFO  c.a.a.codingame.CodingameApplication               - Starting CodingameApplication using Java 1.8.0_265 on MacBook-Pro.local with PID 1660 (/Users/gigi/Documents/ruth/codingame/target/classes started by gigi in /Users/gigi/Documents/ruth/codingame)
+2021-06-29 08:10:39,037 [main] INFO  c.a.a.codingame.CodingameApplication               - No active profile set, falling back to default profiles: default
+2021-06-29 08:10:39,714 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-06-29 08:10:39,761 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 42 ms. Found 1 MongoDB repository interfaces.
+2021-06-29 08:10:40,694 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2021-06-29 08:10:40,707 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-29 08:10:40,708 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-06-29 08:10:40,708 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-06-29 08:10:40,772 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-06-29 08:10:40,772 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1676 ms
+2021-06-29 08:10:41,030 [main] INFO  org.mongodb.driver.cluster                         - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-06-29 08:10:41,104 [cluster-rtt-ClusterId{value='60dab9610940f9056316ded1', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection                      - Opened connection [connectionId{localValue:2, serverValue:32}] to localhost:27017
+2021-06-29 08:10:41,104 [cluster-ClusterId{value='60dab9610940f9056316ded1', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection                      - Opened connection [connectionId{localValue:1, serverValue:31}] to localhost:27017
+2021-06-29 08:10:41,105 [cluster-ClusterId{value='60dab9610940f9056316ded1', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster                         - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=26539014}
+2021-06-29 08:10:42,723 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2021-06-29 08:10:42,749 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-29 08:10:42,758 [main] INFO  c.a.a.codingame.CodingameApplication               - Started CodingameApplication in 4.304 seconds (JVM running for 4.955)
+2021-06-29 08:10:47,320 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-29 08:10:47,321 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2021-06-29 08:10:47,323 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms
+2021-06-29 08:10:47,381 [http-nio-8080-exec-1] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 3d0bc58c-8a3c-4c56-86cc-7938ace58f13
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [AGOTSI, Komi, ssss@ss.com, ssss, 19, M, france]
+
+2021-06-29 08:10:47,565 [http-nio-8080-exec-1] INFO  org.mongodb.driver.connection                      - Opened connection [connectionId{localValue:3, serverValue:33}] to localhost:27017
+2021-06-29 08:10:47,747 [http-nio-8080-exec-1] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 367 ms [REQUESTED_ID: 3d0bc58c-8a3c-4c56-86cc-7938ace58f13] [API: com.atos.airfrance.codingame.controllers.UserController.add] 
+ [RESPONSE(OUTPUT): <201 CREATED Created,User(id=4, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M),[]>]
+2021-06-29 08:10:48,942 [http-nio-8080-exec-3] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: f5625b55-fddb-41d6-b050-703077f51455
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [AGOTSI, Komi, ssss@ss.com, ssss, 19, M, france]
+
+2021-06-29 08:10:48,949 [http-nio-8080-exec-3] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 7 ms [REQUESTED_ID: f5625b55-fddb-41d6-b050-703077f51455] [API: com.atos.airfrance.codingame.controllers.UserController.add] 
+ [RESPONSE(OUTPUT): <201 CREATED Created,User(id=5, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M),[]>]
+2021-06-29 08:10:51,008 [http-nio-8080-exec-4] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: d66526f2-1bdd-4e47-9d5c-0ba6cd634a62
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [AGOTSI, Komi, ssss@ss.com, ssss, 19, M, france]
+
+2021-06-29 08:10:51,013 [http-nio-8080-exec-4] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 5 ms [REQUESTED_ID: d66526f2-1bdd-4e47-9d5c-0ba6cd634a62] [API: com.atos.airfrance.codingame.controllers.UserController.add] 
+ [RESPONSE(OUTPUT): <201 CREATED Created,User(id=6, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M),[]>]
+2021-06-29 08:10:56,444 [http-nio-8080-exec-5] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: ae1285dd-2ac7-4871-bb1c-99e71f33eafe
+HOST: localhost:8080 HttpMethod: GET
+URI: /api/users/1
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.get
+Arguments(Inputs): [1]
+
+2021-06-29 08:10:56,473 [http-nio-8080-exec-5] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 30 ms [REQUESTED_ID: ae1285dd-2ac7-4871-bb1c-99e71f33eafe] [API: com.atos.airfrance.codingame.controllers.UserController.get] 
+ [RESPONSE(OUTPUT): <200 OK OK,ResponseDTO(status=200 OK, message=Success!, details=null, body=User(id=1, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M)),[]>]
