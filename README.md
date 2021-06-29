@@ -26,11 +26,11 @@ Bonuses:
 - use AOP
 - documentation/UML/schemas to explain the architecture
 
-## Starting by coding
+## Start by coding
 
-Avant de commencer à coder, veuillez lire le [CONTRIBUTING.md](./CONTRIBUTING.md) qui indique toutes les bonnes pratiques et les conventions que nous utilisons.
+Before you start coding, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) which shows all the best practices and conventions we use.
 
-### CLone application
+### Clone application
 
 Once the tools have been installed and the environment prepared, download the application code:
-`git clone https://github.com/ajarno/TO52-Project.git`
+`https://github.com/kAgotsi/codingame.git`
