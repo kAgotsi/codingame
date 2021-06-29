@@ -3,7 +3,7 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/ajarno/to52-project/badge/develop?s=53b7342f68a10c0e24ef9e9d6e7587e072f5abcc)](https://www.codefactor.io/repository/github/ajarno/to52-project/overview/develop)
 
 1. [**Presentation**](#presentation)
-1. [**start by coding**](#sarting-by-coding)
+1. [**Start by coding**](#sarting-by-coding)
 1. [**Clone application**](#clone-application)
 
 ## Presentation
