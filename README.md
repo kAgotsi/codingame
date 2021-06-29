@@ -5,6 +5,7 @@
 1. [**Presentation**](#presentation)
 1. [**Start by coding**](#sarting-by-coding)
 1. [**Clone application**](#clone-application)
+2. 1. [**Wiki**](#wiki)
 
 ## Presentation
 
@@ -34,3 +35,7 @@ Before you start coding, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) wh
 
 Once the tools have been installed and the environment prepared, download the application code:
 `https://github.com/kAgotsi/codingame.git`
+
+### Wiki
+
+`https://github.com/kAgotsi/codingame/wiki`
