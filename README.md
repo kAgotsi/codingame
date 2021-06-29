@@ -5,7 +5,7 @@
 1. [**Presentation**](#presentation)
 1. [**Start by coding**](#sarting-by-coding)
 1. [**Clone application**](#clone-application)
-2. 1. [**Wiki**](#wiki)
+1. [**Wiki**](#wiki)
 
 ## Presentation
 
