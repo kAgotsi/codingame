@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 /**
  * <pre>
  * Title: RecordNotFoundException class
- * Description: Exception raised when record nor found.
+ * Description: Exception raised when record not found.
  * </pre>
  *
  * @author Gédéon AGOTSI

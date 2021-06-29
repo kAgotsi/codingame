@@ -60,3 +60,1188 @@ Arguments(Inputs): [1]
 2021-06-29 08:10:56,473 [http-nio-8080-exec-5] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
 Execution Time: 30 ms [REQUESTED_ID: ae1285dd-2ac7-4871-bb1c-99e71f33eafe] [API: com.atos.airfrance.codingame.controllers.UserController.get] 
  [RESPONSE(OUTPUT): <200 OK OK,ResponseDTO(status=200 OK, message=Success!, details=null, body=User(id=1, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M)),[]>]
+2021-06-29 09:01:34,699 [http-nio-8080-exec-8] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 2be79f48-1c9e-492b-81e6-9ceee301f73e
+HOST: localhost:8080 HttpMethod: GET
+URI: /api/users/1
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.get
+Arguments(Inputs): [1]
+
+2021-06-29 09:01:34,798 [http-nio-8080-exec-8] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 105 ms [REQUESTED_ID: 2be79f48-1c9e-492b-81e6-9ceee301f73e] [API: com.atos.airfrance.codingame.controllers.UserController.get] 
+ [RESPONSE(OUTPUT): <200 OK OK,ResponseDTO(status=200 OK, message=Success!, details=null, body=User(id=1, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M)),[]>]
+2021-06-29 09:02:21,766 [http-nio-8080-exec-9] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 9c97a9fd-a0af-4f63-9381-b023f957e1d8
+HOST: localhost:8080 HttpMethod: GET
+URI: /api/users/1222
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.get
+Arguments(Inputs): [1222]
+
+2021-06-29 09:02:21,781 [http-nio-8080-exec-9] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Exception when executing method : User com.atos.airfrance.codingame.services.UserService.getUser(Long) 
+details :   No record found
+2021-06-29 09:03:03,125 [http-nio-8080-exec-10] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 5ca54bb2-7f62-45d5-813a-28bf32a84a37
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [AGOTSI, Komi, ssss@ss.com, ssss, 19, M, france]
+
+2021-06-29 09:03:03,156 [http-nio-8080-exec-10] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 31 ms [REQUESTED_ID: 5ca54bb2-7f62-45d5-813a-28bf32a84a37] [API: com.atos.airfrance.codingame.controllers.UserController.add] 
+ [RESPONSE(OUTPUT): <201 CREATED Created,User(id=7, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M),[]>]
+2021-06-29 09:03:04,542 [http-nio-8080-exec-2] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: b4ae99a5-699f-43c2-9239-afc0f24fa608
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [AGOTSI, Komi, ssss@ss.com, ssss, 19, M, france]
+
+2021-06-29 09:03:04,557 [http-nio-8080-exec-2] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 15 ms [REQUESTED_ID: b4ae99a5-699f-43c2-9239-afc0f24fa608] [API: com.atos.airfrance.codingame.controllers.UserController.add] 
+ [RESPONSE(OUTPUT): <201 CREATED Created,User(id=8, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M),[]>]
+2021-06-29 09:03:08,518 [http-nio-8080-exec-1] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 40d0633c-5502-48aa-9276-96d4988202c6
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [AGOTSI, Komi, ssss@ss.com, ssss, 19, M, france]
+
+2021-06-29 09:03:08,523 [http-nio-8080-exec-1] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 4 ms [REQUESTED_ID: 40d0633c-5502-48aa-9276-96d4988202c6] [API: com.atos.airfrance.codingame.controllers.UserController.add] 
+ [RESPONSE(OUTPUT): <201 CREATED Created,User(id=9, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M),[]>]
+2021-06-29 09:03:58,862 [http-nio-8080-exec-3] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: aa7a9ee1-0c6a-44a0-8540-ce1af5b504b9
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [DURAND, Komi, ssss@ss.com, password, 19, M, france]
+
+2021-06-29 09:03:58,872 [http-nio-8080-exec-3] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 10 ms [REQUESTED_ID: aa7a9ee1-0c6a-44a0-8540-ce1af5b504b9] [API: com.atos.airfrance.codingame.controllers.UserController.add] 
+ [RESPONSE(OUTPUT): <201 CREATED Created,User(id=10, firstName=Komi, lastName=DURAND, email=ssss@ss.com, password=password, age=19, gender=M),[]>]
+2021-06-29 09:04:57,202 [http-nio-8080-exec-4] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: ddc91165-d679-4bec-ad74-b3b8749d886a
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [DURAND, Komi, ssss@ss.com, ssss, 16, M, Allemangne]
+
+2021-06-29 09:04:57,229 [http-nio-8080-exec-4] ERROR o.a.c.c.C.[.[.[/].[dispatcherServlet]              - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.validation.ConstraintViolationException: add.country: This site is only for French people and residents of France., add.age: This site is for adults only, you must be over 18 to register.] with root cause
+javax.validation.ConstraintViolationException: add.country: This site is only for French people and residents of France., add.age: This site is for adults only, you must be over 18 to register.
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:120)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.atos.airfrance.codingame.aspect.LoggingAspect.profileExecutionTime(LoggingAspect.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.atos.airfrance.codingame.controllers.UserController$$EnhancerBySpringCGLIB$$7d5a677.add(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-29 09:05:10,923 [http-nio-8080-exec-6] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: f2a76c9d-c0f7-4d15-8f58-ace6ceaa21df
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [DURAND, Komi, ssss@ss.com, ssss, 16, M, Allemangne]
+
+2021-06-29 09:05:10,927 [http-nio-8080-exec-6] ERROR o.a.c.c.C.[.[.[/].[dispatcherServlet]              - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.validation.ConstraintViolationException: add.country: This site is only for French people and residents of France., add.age: This site is for adults only, you must be over 18 to register.] with root cause
+javax.validation.ConstraintViolationException: add.country: This site is only for French people and residents of France., add.age: This site is for adults only, you must be over 18 to register.
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:120)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.atos.airfrance.codingame.aspect.LoggingAspect.profileExecutionTime(LoggingAspect.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.atos.airfrance.codingame.controllers.UserController$$EnhancerBySpringCGLIB$$7d5a677.add(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-29 09:06:13,585 [http-nio-8080-exec-8] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 8ea3cd6a-91c2-4719-a354-7a406f8dc33a
+HOST: localhost:8080 HttpMethod: GET
+URI: /api/users/1
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.get
+Arguments(Inputs): [1]
+
+2021-06-29 09:06:13,587 [http-nio-8080-exec-8] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 2 ms [REQUESTED_ID: 8ea3cd6a-91c2-4719-a354-7a406f8dc33a] [API: com.atos.airfrance.codingame.controllers.UserController.get] 
+ [RESPONSE(OUTPUT): <200 OK OK,ResponseDTO(status=200 OK, message=Success!, details=null, body=User(id=1, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M)),[]>]
+2021-06-29 09:06:18,483 [http-nio-8080-exec-9] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 3a0d435f-5817-4d4b-bf9b-34131ac81aa2
+HOST: localhost:8080 HttpMethod: GET
+URI: /api/users/1222
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.get
+Arguments(Inputs): [1222]
+
+2021-06-29 09:06:18,484 [http-nio-8080-exec-9] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Exception when executing method : User com.atos.airfrance.codingame.services.UserService.getUser(Long) 
+details :   No record found
+2021-06-29 09:07:35,519 [http-nio-8080-exec-1] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 648448d0-9ff6-4d40-bb23-e5b35b1ffc15
+HOST: localhost:8080 HttpMethod: GET
+URI: /api/users/1222
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.get
+Arguments(Inputs): [1222]
+
+2021-06-29 09:07:35,526 [http-nio-8080-exec-1] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Exception when executing method : User com.atos.airfrance.codingame.services.UserService.getUser(Long) 
+details :   No record found
+2021-06-29 09:07:59,592 [SpringApplicationShutdownHook] INFO  org.mongodb.driver.connection                      - Closed connection [connectionId{localValue:3, serverValue:33}] to localhost:27017 because the pool has been closed.
+2021-06-29 09:08:04,193 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2021-06-29 09:08:04,204 [main] INFO  c.a.a.codingame.CodingameApplication               - Starting CodingameApplication using Java 1.8.0_265 on MacBook-Pro.local with PID 2032 (/Users/gigi/Documents/ruth/codingame/target/classes started by gigi in /Users/gigi/Documents/ruth/codingame)
+2021-06-29 09:08:04,205 [main] INFO  c.a.a.codingame.CodingameApplication               - No active profile set, falling back to default profiles: default
+2021-06-29 09:08:05,039 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-06-29 09:08:05,093 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 50 ms. Found 1 MongoDB repository interfaces.
+2021-06-29 09:08:06,019 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2021-06-29 09:08:06,029 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-29 09:08:06,030 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-06-29 09:08:06,030 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-06-29 09:08:06,093 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-06-29 09:08:06,093 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1836 ms
+2021-06-29 09:08:06,336 [main] INFO  org.mongodb.driver.cluster                         - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-06-29 09:08:06,401 [cluster-ClusterId{value='60dac6d6c7016a04e5cccabf', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection                      - Opened connection [connectionId{localValue:1, serverValue:35}] to localhost:27017
+2021-06-29 09:08:06,401 [cluster-rtt-ClusterId{value='60dac6d6c7016a04e5cccabf', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection                      - Opened connection [connectionId{localValue:2, serverValue:34}] to localhost:27017
+2021-06-29 09:08:06,402 [cluster-ClusterId{value='60dac6d6c7016a04e5cccabf', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster                         - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=24173916}
+2021-06-29 09:08:07,768 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2021-06-29 09:08:07,800 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-29 09:08:07,808 [main] INFO  c.a.a.codingame.CodingameApplication               - Started CodingameApplication in 4.135 seconds (JVM running for 4.688)
+2021-06-29 09:08:09,385 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-29 09:08:09,385 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2021-06-29 09:08:09,386 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2021-06-29 09:08:09,419 [http-nio-8080-exec-2] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 9e1fc41e-9e26-44e2-9e56-2f1566e89fa4
+HOST: localhost:8080 HttpMethod: GET
+URI: /api/users/1222
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.get
+Arguments(Inputs): [1222]
+
+2021-06-29 09:08:09,551 [http-nio-8080-exec-2] INFO  org.mongodb.driver.connection                      - Opened connection [connectionId{localValue:3, serverValue:36}] to localhost:27017
+2021-06-29 09:08:10,650 [http-nio-8080-exec-3] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: d61a9e15-bf62-4763-bbfb-27b94194aff2
+HOST: localhost:8080 HttpMethod: GET
+URI: /api/users/1222
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.get
+Arguments(Inputs): [1222]
+
+2021-06-29 09:12:01,521 [http-nio-8080-exec-6] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 4dc93be1-d812-4163-9729-5832e969f092
+HOST: localhost:8080 HttpMethod: GET
+URI: /api/users/1222
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.get
+Arguments(Inputs): [1222]
+
+2021-06-29 09:22:28,553 [SpringApplicationShutdownHook] INFO  org.mongodb.driver.connection                      - Closed connection [connectionId{localValue:3, serverValue:36}] to localhost:27017 because the pool has been closed.
+2021-06-29 09:22:32,565 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2021-06-29 09:22:32,575 [main] INFO  c.a.a.codingame.CodingameApplication               - Starting CodingameApplication using Java 1.8.0_265 on MacBook-Pro.local with PID 2115 (/Users/gigi/Documents/ruth/codingame/target/classes started by gigi in /Users/gigi/Documents/ruth/codingame)
+2021-06-29 09:22:32,575 [main] INFO  c.a.a.codingame.CodingameApplication               - No active profile set, falling back to default profiles: default
+2021-06-29 09:22:33,264 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-06-29 09:22:33,309 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 41 ms. Found 1 MongoDB repository interfaces.
+2021-06-29 09:22:34,108 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2021-06-29 09:22:34,117 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-29 09:22:34,117 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-06-29 09:22:34,118 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-06-29 09:22:34,175 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-06-29 09:22:34,176 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1540 ms
+2021-06-29 09:22:34,384 [main] INFO  org.mongodb.driver.cluster                         - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-06-29 09:22:34,442 [cluster-ClusterId{value='60daca3ab248323b9b33b774', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection                      - Opened connection [connectionId{localValue:1, serverValue:37}] to localhost:27017
+2021-06-29 09:22:34,442 [cluster-rtt-ClusterId{value='60daca3ab248323b9b33b774', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection                      - Opened connection [connectionId{localValue:2, serverValue:38}] to localhost:27017
+2021-06-29 09:22:34,442 [cluster-ClusterId{value='60daca3ab248323b9b33b774', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster                         - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=19738338}
+2021-06-29 09:22:35,823 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2021-06-29 09:22:35,845 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-29 09:22:35,852 [main] INFO  c.a.a.codingame.CodingameApplication               - Started CodingameApplication in 3.782 seconds (JVM running for 4.294)
+2021-06-29 09:23:01,238 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-29 09:23:01,239 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2021-06-29 09:23:01,241 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms
+2021-06-29 09:23:01,271 [http-nio-8080-exec-1] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 98bb1416-a151-4807-8ad4-c0dd2c02db44
+HOST: localhost:8080 HttpMethod: GET
+URI: /api/users/1222
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.get
+Arguments(Inputs): [1222]
+
+2021-06-29 09:23:01,389 [http-nio-8080-exec-1] INFO  org.mongodb.driver.connection                      - Opened connection [connectionId{localValue:3, serverValue:39}] to localhost:27017
+2021-06-29 09:23:01,404 [http-nio-8080-exec-1] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Exception when executing method : User com.atos.airfrance.codingame.services.UserService.getUser(Long) 
+details :   No record found
+2021-06-29 09:23:12,101 [http-nio-8080-exec-3] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 59fbaa5f-d8f1-481b-94ce-e677446271d6
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [DURAND, Komi, ssss@ss.com, ssss, 16, M, Allemangne]
+
+2021-06-29 09:23:12,160 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[.[/].[dispatcherServlet]              - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.validation.ConstraintViolationException: add.age: This site is for adults only, you must be over 18 to register., add.country: This site is only for French people and residents of France.] with root cause
+javax.validation.ConstraintViolationException: add.age: This site is for adults only, you must be over 18 to register., add.country: This site is only for French people and residents of France.
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:120)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.atos.airfrance.codingame.aspect.LoggingAspect.profileExecutionTime(LoggingAspect.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.atos.airfrance.codingame.controllers.UserController$$EnhancerBySpringCGLIB$$ab5abff4.add(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-29 09:23:14,985 [http-nio-8080-exec-5] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 8b217f99-acd9-45ac-b1c6-77df482ac44f
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [DURAND, Komi, ssss@ss.com, ssss, 16, M, Allemangne]
+
+2021-06-29 09:23:14,988 [http-nio-8080-exec-5] ERROR o.a.c.c.C.[.[.[/].[dispatcherServlet]              - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.validation.ConstraintViolationException: add.age: This site is for adults only, you must be over 18 to register., add.country: This site is only for French people and residents of France.] with root cause
+javax.validation.ConstraintViolationException: add.age: This site is for adults only, you must be over 18 to register., add.country: This site is only for French people and residents of France.
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:120)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.atos.airfrance.codingame.aspect.LoggingAspect.profileExecutionTime(LoggingAspect.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.atos.airfrance.codingame.controllers.UserController$$EnhancerBySpringCGLIB$$ab5abff4.add(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-29 09:23:23,105 [http-nio-8080-exec-7] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: ad70bf32-a876-47e7-97a8-44469d22060f
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [DURAND, Komi, ssss@ss.com, ssss, 16, M, Allemangne]
+
+2021-06-29 09:23:23,107 [http-nio-8080-exec-7] ERROR o.a.c.c.C.[.[.[/].[dispatcherServlet]              - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.validation.ConstraintViolationException: add.country: This site is only for French people and residents of France., add.age: This site is for adults only, you must be over 18 to register.] with root cause
+javax.validation.ConstraintViolationException: add.country: This site is only for French people and residents of France., add.age: This site is for adults only, you must be over 18 to register.
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:120)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.atos.airfrance.codingame.aspect.LoggingAspect.profileExecutionTime(LoggingAspect.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.atos.airfrance.codingame.controllers.UserController$$EnhancerBySpringCGLIB$$ab5abff4.add(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-29 09:23:31,562 [http-nio-8080-exec-9] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: dacbdd59-da36-4dd5-9c7c-5d7961846f98
+HOST: localhost:8080 HttpMethod: GET
+URI: /api/users/1222
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.get
+Arguments(Inputs): [1222]
+
+2021-06-29 09:23:31,566 [http-nio-8080-exec-9] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Exception when executing method : User com.atos.airfrance.codingame.services.UserService.getUser(Long) 
+details :   No record found
+2021-06-29 09:23:38,477 [http-nio-8080-exec-10] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: b41b69f5-72f8-44ad-9463-6bad93396f51
+HOST: localhost:8080 HttpMethod: GET
+URI: /api/users/1
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.get
+Arguments(Inputs): [1]
+
+2021-06-29 09:23:38,502 [http-nio-8080-exec-10] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 25 ms [REQUESTED_ID: b41b69f5-72f8-44ad-9463-6bad93396f51] [API: com.atos.airfrance.codingame.controllers.UserController.get] 
+ [RESPONSE(OUTPUT): <200 OK OK,ResponseDTO(status=200 OK, message=Success!, details=null, body=User(id=1, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M)),[]>]
+2021-06-29 09:23:42,944 [http-nio-8080-exec-2] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 5c7fc2d2-7926-4d32-89e8-15205b478119
+HOST: localhost:8080 HttpMethod: GET
+URI: /api/users/1
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.get
+Arguments(Inputs): [1]
+
+2021-06-29 09:23:42,947 [http-nio-8080-exec-2] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 3 ms [REQUESTED_ID: 5c7fc2d2-7926-4d32-89e8-15205b478119] [API: com.atos.airfrance.codingame.controllers.UserController.get] 
+ [RESPONSE(OUTPUT): <200 OK OK,ResponseDTO(status=200 OK, message=Success!, details=null, body=User(id=1, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M)),[]>]
+2021-06-29 09:23:47,771 [http-nio-8080-exec-1] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: b1966060-091b-4269-95dd-eaf3387bcdc3
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [AGOTSI, Komi, ssss@ss.com, ssss, 19, M, france]
+
+2021-06-29 09:23:47,880 [http-nio-8080-exec-1] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 109 ms [REQUESTED_ID: b1966060-091b-4269-95dd-eaf3387bcdc3] [API: com.atos.airfrance.codingame.controllers.UserController.add] 
+ [RESPONSE(OUTPUT): <201 CREATED Created,User(id=11, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M),[]>]
+2021-06-29 09:23:50,768 [http-nio-8080-exec-3] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 75a10384-498a-4962-949b-72bfc0c44db1
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [DURAND, Komi, ssss@ss.com, ssss, 16, M, Allemangne]
+
+2021-06-29 09:23:50,770 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[.[/].[dispatcherServlet]              - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.validation.ConstraintViolationException: add.age: This site is for adults only, you must be over 18 to register., add.country: This site is only for French people and residents of France.] with root cause
+javax.validation.ConstraintViolationException: add.age: This site is for adults only, you must be over 18 to register., add.country: This site is only for French people and residents of France.
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:120)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.atos.airfrance.codingame.aspect.LoggingAspect.profileExecutionTime(LoggingAspect.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.atos.airfrance.codingame.controllers.UserController$$EnhancerBySpringCGLIB$$ab5abff4.add(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-29 09:26:07,771 [SpringApplicationShutdownHook] INFO  org.mongodb.driver.connection                      - Closed connection [connectionId{localValue:3, serverValue:39}] to localhost:27017 because the pool has been closed.
+2021-06-29 09:26:11,262 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2021-06-29 09:26:11,276 [main] INFO  c.a.a.codingame.CodingameApplication               - Starting CodingameApplication using Java 1.8.0_265 on MacBook-Pro.local with PID 2158 (/Users/gigi/Documents/ruth/codingame/target/classes started by gigi in /Users/gigi/Documents/ruth/codingame)
+2021-06-29 09:26:11,276 [main] INFO  c.a.a.codingame.CodingameApplication               - No active profile set, falling back to default profiles: default
+2021-06-29 09:26:11,974 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-06-29 09:26:12,013 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 35 ms. Found 1 MongoDB repository interfaces.
+2021-06-29 09:26:12,759 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2021-06-29 09:26:12,767 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-29 09:26:12,768 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-06-29 09:26:12,768 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-06-29 09:26:12,827 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-06-29 09:26:12,827 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1477 ms
+2021-06-29 09:26:13,048 [main] INFO  org.mongodb.driver.cluster                         - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-06-29 09:26:13,099 [cluster-rtt-ClusterId{value='60dacb15fead9858413fbd04', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection                      - Opened connection [connectionId{localValue:2, serverValue:40}] to localhost:27017
+2021-06-29 09:26:13,099 [cluster-ClusterId{value='60dacb15fead9858413fbd04', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection                      - Opened connection [connectionId{localValue:1, serverValue:41}] to localhost:27017
+2021-06-29 09:26:13,099 [cluster-ClusterId{value='60dacb15fead9858413fbd04', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster                         - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=17193994}
+2021-06-29 09:26:14,406 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2021-06-29 09:26:14,430 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-29 09:26:14,439 [main] INFO  c.a.a.codingame.CodingameApplication               - Started CodingameApplication in 3.647 seconds (JVM running for 4.167)
+2021-06-29 09:26:23,300 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-29 09:26:23,301 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2021-06-29 09:26:23,307 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 6 ms
+2021-06-29 09:26:23,352 [http-nio-8080-exec-2] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 9b17ceea-3f1a-4b98-a85e-c99e1bdf6ba4
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [DURAND, Komi, ssss@ss.com, ssss, 16, M, Allemangne]
+
+2021-06-29 09:26:23,445 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[/].[dispatcherServlet]              - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.validation.ConstraintViolationException: add.age: This site is for adults only, you must be over 18 to register., add.country: This site is only for French people and residents of France.] with root cause
+javax.validation.ConstraintViolationException: add.age: This site is for adults only, you must be over 18 to register., add.country: This site is only for French people and residents of France.
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:120)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.atos.airfrance.codingame.aspect.LoggingAspect.profileExecutionTime(LoggingAspect.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.atos.airfrance.codingame.controllers.UserController$$EnhancerBySpringCGLIB$$8f6cee50.add(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-29 09:26:33,290 [http-nio-8080-exec-4] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 7cc948f5-3bf9-47ce-95ab-a7baaa32cdcd
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [DURAND, Komi, ssss@ss.com, ssss, 19, M, Allemangne]
+
+2021-06-29 09:26:33,294 [http-nio-8080-exec-4] ERROR o.a.c.c.C.[.[.[/].[dispatcherServlet]              - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.validation.ConstraintViolationException: add.country: This site is only for French people and residents of France.] with root cause
+javax.validation.ConstraintViolationException: add.country: This site is only for French people and residents of France.
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:120)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.atos.airfrance.codingame.aspect.LoggingAspect.profileExecutionTime(LoggingAspect.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.atos.airfrance.codingame.controllers.UserController$$EnhancerBySpringCGLIB$$8f6cee50.add(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-29 09:26:37,523 [http-nio-8080-exec-5] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 1b7ac5c6-a7a5-40fd-9def-a2b8cbfb81b0
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [DURAND, Komi, ssss@ss.com, ssss, 19, M, France]
+
+2021-06-29 09:26:37,638 [http-nio-8080-exec-5] INFO  org.mongodb.driver.connection                      - Opened connection [connectionId{localValue:3, serverValue:42}] to localhost:27017
+2021-06-29 09:26:37,717 [http-nio-8080-exec-5] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 194 ms [REQUESTED_ID: 1b7ac5c6-a7a5-40fd-9def-a2b8cbfb81b0] [API: com.atos.airfrance.codingame.controllers.UserController.add] 
+ [RESPONSE(OUTPUT): <201 CREATED Created,User(id=12, firstName=Komi, lastName=DURAND, email=ssss@ss.com, password=ssss, age=19, gender=M),[]>]
+2021-06-29 09:26:42,733 [http-nio-8080-exec-7] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 145c03e6-c79d-4b3c-8ab3-5c7e6384921e
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [DURAND, Komi, ssss@ss.com, ssss, 19, M, Francs]
+
+2021-06-29 09:26:42,735 [http-nio-8080-exec-7] ERROR o.a.c.c.C.[.[.[/].[dispatcherServlet]              - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.validation.ConstraintViolationException: add.country: This site is only for French people and residents of France.] with root cause
+javax.validation.ConstraintViolationException: add.country: This site is only for French people and residents of France.
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:120)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.atos.airfrance.codingame.aspect.LoggingAspect.profileExecutionTime(LoggingAspect.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.atos.airfrance.codingame.controllers.UserController$$EnhancerBySpringCGLIB$$8f6cee50.add(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-29 09:28:01,315 [SpringApplicationShutdownHook] INFO  org.mongodb.driver.connection                      - Closed connection [connectionId{localValue:3, serverValue:42}] to localhost:27017 because the pool has been closed.
+2021-06-29 09:28:04,946 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2021-06-29 09:28:04,951 [main] INFO  c.a.a.codingame.CodingameApplication               - Starting CodingameApplication using Java 1.8.0_265 on MacBook-Pro.local with PID 2165 (/Users/gigi/Documents/ruth/codingame/target/classes started by gigi in /Users/gigi/Documents/ruth/codingame)
+2021-06-29 09:28:04,951 [main] INFO  c.a.a.codingame.CodingameApplication               - No active profile set, falling back to default profiles: default
+2021-06-29 09:28:05,659 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-06-29 09:28:05,701 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 38 ms. Found 1 MongoDB repository interfaces.
+2021-06-29 09:28:06,453 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8080 (http)
+2021-06-29 09:28:06,462 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-29 09:28:06,462 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-06-29 09:28:06,463 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-06-29 09:28:06,516 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-06-29 09:28:06,516 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1518 ms
+2021-06-29 09:28:06,733 [main] INFO  org.mongodb.driver.cluster                         - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-06-29 09:28:06,790 [cluster-ClusterId{value='60dacb86363d8209c1ae3f8a', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection                      - Opened connection [connectionId{localValue:1, serverValue:44}] to localhost:27017
+2021-06-29 09:28:06,790 [cluster-rtt-ClusterId{value='60dacb86363d8209c1ae3f8a', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection                      - Opened connection [connectionId{localValue:2, serverValue:43}] to localhost:27017
+2021-06-29 09:28:06,790 [cluster-ClusterId{value='60dacb86363d8209c1ae3f8a', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster                         - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=19446812}
+2021-06-29 09:28:08,424 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2021-06-29 09:28:08,460 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-29 09:28:08,468 [main] INFO  c.a.a.codingame.CodingameApplication               - Started CodingameApplication in 3.808 seconds (JVM running for 4.294)
+2021-06-29 09:28:12,526 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-29 09:28:12,526 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2021-06-29 09:28:12,527 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2021-06-29 09:28:12,569 [http-nio-8080-exec-2] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 914dd8d5-7d42-4b67-92d3-57f73f65cf7e
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [DURAND, Komi, ssss@ss.com, ssss, 19, M, Francs]
+
+2021-06-29 09:28:46,187 [http-nio-8080-exec-4] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 651c0706-f1de-47c2-9a08-672b04950d69
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [DURAND, Komi, ssss@ss.com, ssss, 19, M, Francs]
+
+2021-06-29 09:28:51,326 [http-nio-8080-exec-6] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 6159837f-dbef-40ed-9a52-ca7fa49774a4
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [DURAND, Komi, ssss@ss.com, ssss, 11, M, Francs]
+
+2021-06-29 09:31:35,641 [http-nio-8080-exec-8] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: f64d2d9a-47a8-46d1-9b6d-833184524b02
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [AGOTSI, Komi, ssss@ss.com, ssss, 19, M, france]
+
+2021-06-29 09:31:35,756 [http-nio-8080-exec-8] INFO  org.mongodb.driver.connection                      - Opened connection [connectionId{localValue:3, serverValue:45}] to localhost:27017
+2021-06-29 09:31:35,844 [http-nio-8080-exec-8] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 203 ms [REQUESTED_ID: f64d2d9a-47a8-46d1-9b6d-833184524b02] [API: com.atos.airfrance.codingame.controllers.UserController.add] 
+ [RESPONSE(OUTPUT): <201 CREATED Created,User(id=13, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M),[]>]
+2021-06-29 09:31:44,814 [http-nio-8080-exec-9] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: ba5b7804-e29f-4b4a-b7a6-55630622e583
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [AGOTSI, Komi, ssss@ss.com, ssss, 19, M, france]
+
+2021-06-29 09:31:44,820 [http-nio-8080-exec-9] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 6 ms [REQUESTED_ID: ba5b7804-e29f-4b4a-b7a6-55630622e583] [API: com.atos.airfrance.codingame.controllers.UserController.add] 
+ [RESPONSE(OUTPUT): <201 CREATED Created,User(id=14, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M),[]>]
+2021-06-29 09:31:54,567 [http-nio-8080-exec-10] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 17cc7e48-af4b-4699-bd8b-0e026c19f50f
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [AGOTSI, Komi, ssss@ss.com, ssss, 12, M, Germany]
+
+2021-06-29 09:36:17,557 [http-nio-8080-exec-2] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: d926e3fa-4270-43eb-b313-14f1ea18b18e
+HOST: localhost:8080 HttpMethod: GET
+URI: /api/users/1
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.get
+Arguments(Inputs): [1]
+
+2021-06-29 09:36:17,615 [http-nio-8080-exec-2] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 58 ms [REQUESTED_ID: d926e3fa-4270-43eb-b313-14f1ea18b18e] [API: com.atos.airfrance.codingame.controllers.UserController.get] 
+ [RESPONSE(OUTPUT): <200 OK OK,ResponseDTO(status=200 OK, message=Success!, details=null, body=User(id=1, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M)),[]>]
+2021-06-29 09:37:09,555 [http-nio-8080-exec-3] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 479ab633-65c9-4a4f-a431-ce2576eb6af1
+HOST: localhost:8080 HttpMethod: GET
+URI: /api/users/1222
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.get
+Arguments(Inputs): [1222]
+
+2021-06-29 09:37:09,558 [http-nio-8080-exec-3] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Exception when executing method : User com.atos.airfrance.codingame.services.UserService.getUser(Long) 
+details :   No record found
+2021-06-29 09:37:47,036 [http-nio-8080-exec-4] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 9fc9d0eb-c514-4d61-996f-606189b31b09
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [AGOTSI, Komi, ssss@ss.com, ssss, 19, M, france]
+
+2021-06-29 09:37:47,087 [http-nio-8080-exec-4] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 54 ms [REQUESTED_ID: 9fc9d0eb-c514-4d61-996f-606189b31b09] [API: com.atos.airfrance.codingame.controllers.UserController.add] 
+ [RESPONSE(OUTPUT): <201 CREATED Created,User(id=15, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M),[]>]
+2021-06-29 09:38:16,039 [http-nio-8080-exec-5] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 8b58bef4-896d-413a-9f5e-dfe7d79ef7de
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [DURAND, Komi, ssss@ss.com, password, 11, M, Francs]
+
+2021-06-29 09:38:21,512 [http-nio-8080-exec-7] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: f9090da9-8972-4526-b913-67170f5625b6
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [DURAND, Komi, ssss@ss.com, password, 11, M, Francs]
+
+2021-06-29 09:38:27,768 [http-nio-8080-exec-9] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: d88db0f1-3d48-4f98-af87-c506576108b6
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [DURAND, Komi, ssss@ss.com, password, 20, M, Francs]
+
+2021-06-29 09:38:32,730 [http-nio-8080-exec-1] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: c4aa0f12-b1f6-46fc-a0a9-d74e13504662
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [DURAND, Komi, ssss@ss.com, password, 20, M, France]
+
+2021-06-29 09:38:32,738 [http-nio-8080-exec-1] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 8 ms [REQUESTED_ID: c4aa0f12-b1f6-46fc-a0a9-d74e13504662] [API: com.atos.airfrance.codingame.controllers.UserController.add] 
+ [RESPONSE(OUTPUT): <201 CREATED Created,User(id=16, firstName=Komi, lastName=DURAND, email=ssss@ss.com, password=password, age=20, gender=M),[]>]
+2021-06-29 09:39:16,768 [http-nio-8080-exec-2] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: f37b7d71-9b94-4637-9226-b48799273c24
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [AGOTSI, Komi, ssss@ss.com, ssss, 12, M, Germany]
+
+2021-06-29 09:42:12,460 [http-nio-8080-exec-3] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 98ce2c56-dfcd-4291-9f89-30fc1c240afc
+HOST: localhost:8080 HttpMethod: GET
+URI: /api/users/1
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.get
+Arguments(Inputs): [1]
+
+2021-06-29 09:42:12,476 [http-nio-8080-exec-3] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 17 ms [REQUESTED_ID: 98ce2c56-dfcd-4291-9f89-30fc1c240afc] [API: com.atos.airfrance.codingame.controllers.UserController.get] 
+ [RESPONSE(OUTPUT): <200 OK OK,ResponseDTO(status=200 OK, message=Success!, details=null, body=User(id=1, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M)),[]>]
+2021-06-29 09:42:48,526 [http-nio-8080-exec-5] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 13a0049f-d117-43c1-b8c5-b6cb74b5fde5
+HOST: localhost:8080 HttpMethod: GET
+URI: /api/users/1222
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.get
+Arguments(Inputs): [1222]
+
+2021-06-29 09:42:48,529 [http-nio-8080-exec-5] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Exception when executing method : User com.atos.airfrance.codingame.services.UserService.getUser(Long) 
+details :   No record found
+2021-06-29 09:43:30,743 [http-nio-8080-exec-6] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 3ec5f2e5-eb04-4660-9cb0-dd288c2f3b4e
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [AGOTSI, Komi, ssss@ss.com, ssss, 19, M, france]
+
+2021-06-29 09:43:30,754 [http-nio-8080-exec-6] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 11 ms [REQUESTED_ID: 3ec5f2e5-eb04-4660-9cb0-dd288c2f3b4e] [API: com.atos.airfrance.codingame.controllers.UserController.add] 
+ [RESPONSE(OUTPUT): <201 CREATED Created,User(id=17, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M),[]>]
+2021-06-29 09:44:01,276 [http-nio-8080-exec-7] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: fc385714-ff66-4e79-a847-8f7c66947924
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [DURAND, Komi, ssss@ss.com, password, 20, M, France]
+
+2021-06-29 09:44:01,281 [http-nio-8080-exec-7] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 5 ms [REQUESTED_ID: fc385714-ff66-4e79-a847-8f7c66947924] [API: com.atos.airfrance.codingame.controllers.UserController.add] 
+ [RESPONSE(OUTPUT): <201 CREATED Created,User(id=18, firstName=Komi, lastName=DURAND, email=ssss@ss.com, password=password, age=20, gender=M),[]>]
+2021-06-29 09:44:44,357 [http-nio-8080-exec-8] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 8f940d19-2818-4cd6-9cf3-bcd67d2b6d5a
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [AGOTSI, Komi, ssss@ss.com, ssss, 12, M, Germany]
+
+2021-06-29 10:08:01,290 [http-nio-8080-exec-10] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 36ed96ba-8eac-4feb-ac7a-57051545b2ff
+HOST: localhost:8080 HttpMethod: GET
+URI: /api/users/1
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.get
+Arguments(Inputs): [1]
+
+2021-06-29 10:08:01,310 [http-nio-8080-exec-10] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 21 ms [REQUESTED_ID: 36ed96ba-8eac-4feb-ac7a-57051545b2ff] [API: com.atos.airfrance.codingame.controllers.UserController.get] 
+ [RESPONSE(OUTPUT): <200 OK OK,ResponseDTO(status=200 OK, message=Success!, details=null, body=User(id=1, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M)),[]>]
+2021-06-29 10:08:39,545 [http-nio-8080-exec-1] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: f151c06e-82d8-4943-972b-3743aaff873d
+HOST: localhost:8080 HttpMethod: GET
+URI: /api/users/1222
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.get
+Arguments(Inputs): [1222]
+
+2021-06-29 10:08:39,549 [http-nio-8080-exec-1] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Exception when executing method : User com.atos.airfrance.codingame.services.UserService.getUser(Long) 
+details :   No record found
+2021-06-29 10:09:35,250 [http-nio-8080-exec-2] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: a93f6d45-cc8f-48d7-a0ba-572a8165a722
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [AGOTSI, Komi, ssss@ss.com, ssss, 19, M, france]
+
+2021-06-29 10:09:35,270 [http-nio-8080-exec-2] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 20 ms [REQUESTED_ID: a93f6d45-cc8f-48d7-a0ba-572a8165a722] [API: com.atos.airfrance.codingame.controllers.UserController.add] 
+ [RESPONSE(OUTPUT): <201 CREATED Created,User(id=19, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M),[]>]
+2021-06-29 10:10:17,243 [http-nio-8080-exec-4] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: b6bd63fd-e18e-4827-bfc4-4f9d683f21d4
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [DURAND, Komi, ssss@ss.com, password, 20, M, France]
+
+2021-06-29 10:10:17,252 [http-nio-8080-exec-4] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Execution Time: 9 ms [REQUESTED_ID: b6bd63fd-e18e-4827-bfc4-4f9d683f21d4] [API: com.atos.airfrance.codingame.controllers.UserController.add] 
+ [RESPONSE(OUTPUT): <201 CREATED Created,User(id=20, firstName=Komi, lastName=DURAND, email=ssss@ss.com, password=password, age=20, gender=M),[]>]
+2021-06-29 10:10:54,496 [http-nio-8080-exec-3] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 90d58ce7-9d22-458d-bffb-f81871e83d91
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [AGOTSI, Komi, ssss@ss.com, ssss, 12, M, Germany]
+
+2021-06-29 10:14:18,749 [http-nio-8080-exec-6] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+REQUESTED_ID: 539cda46-075c-406e-96f1-fc7c8bdb37d6
+HOST: localhost:8080 HttpMethod: GET
+URI: /api/users/1222
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.get
+Arguments(Inputs): [1222]
+
+2021-06-29 10:14:18,769 [http-nio-8080-exec-6] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
+Exception when executing method : User com.atos.airfrance.codingame.services.UserService.getUser(Long) 
+details :   No record found
