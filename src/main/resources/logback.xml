@@ -36,7 +36,7 @@
             <cleanHistoryOnStart>true</cleanHistoryOnStart>
         </rollingPolicy>
     </appender>
-    <logger name="com.atos.airfrance.codingame.aspect" level="INFO">
+    <logger name="com.atos.airfrance.codingame.aspects" level="INFO">
         <appender-ref ref="aspectLog" />
         <appender-ref ref="Console" />
     </logger>

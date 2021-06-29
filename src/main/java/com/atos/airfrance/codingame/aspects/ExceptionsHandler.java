@@ -1,4 +1,4 @@
-package com.atos.airfrance.codingame.aspect;
+package com.atos.airfrance.codingame.aspects;
 
 import com.atos.airfrance.codingame.exceptions.RecordNotFoundException;
 import com.atos.airfrance.codingame.utils.ResponseDTO;

@@ -492,3 +492,43 @@ Arguments(Inputs): [1222]
 2021-06-29 10:14:18,769 [http-nio-8080-exec-6] INFO  c.a.a.codingame.aspect.LoggingAspect               - 
 Exception when executing method : User com.atos.airfrance.codingame.services.UserService.getUser(Long) 
 details :   No record found
+2021-06-29 11:15:26,765 [http-nio-8080-exec-2] INFO  c.a.a.codingame.aspects.LoggingAspect              - 
+REQUESTED_ID: ca1adff4-db56-4196-9c7c-b554194a11ab
+HOST: localhost:8080 HttpMethod: GET
+URI: /api/users/1222
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.get
+Arguments(Inputs): [1222]
+
+2021-06-29 11:15:26,935 [http-nio-8080-exec-2] INFO  c.a.a.codingame.aspects.LoggingAspect              - 
+Exception when executing method : User com.atos.airfrance.codingame.services.UserService.getUser(Long) 
+details :   No record found
+2021-06-29 11:15:27,835 [http-nio-8080-exec-3] INFO  c.a.a.codingame.aspects.LoggingAspect              - 
+REQUESTED_ID: 710e21fb-83fe-4b93-ae0d-263bd26da271
+HOST: localhost:8080 HttpMethod: GET
+URI: /api/users/1222
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.get
+Arguments(Inputs): [1222]
+
+2021-06-29 11:15:27,838 [http-nio-8080-exec-3] INFO  c.a.a.codingame.aspects.LoggingAspect              - 
+Exception when executing method : User com.atos.airfrance.codingame.services.UserService.getUser(Long) 
+details :   No record found
+2021-06-29 11:15:31,261 [http-nio-8080-exec-4] INFO  c.a.a.codingame.aspects.LoggingAspect              - 
+REQUESTED_ID: 53757683-cf11-40bd-8648-a0d292724b30
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [AGOTSI, Komi, ssss@ss.com, ssss, 19, M, france]
+
+2021-06-29 11:15:31,468 [http-nio-8080-exec-4] INFO  c.a.a.codingame.aspects.LoggingAspect              - 
+Execution Time: 208 ms [REQUESTED_ID: 53757683-cf11-40bd-8648-a0d292724b30] [API: com.atos.airfrance.codingame.controllers.UserController.add] 
+ [RESPONSE(OUTPUT): <201 CREATED Created,User(id=21, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M),[]>]
+2021-06-29 11:15:32,325 [http-nio-8080-exec-5] INFO  c.a.a.codingame.aspects.LoggingAspect              - 
+REQUESTED_ID: 255bf072-56db-4de6-aa7e-bda8aeb0fc5b
+HOST: localhost:8080 HttpMethod: POST
+URI: /api/users/
+API METHOD: com.atos.airfrance.codingame.controllers.UserController.add
+Arguments(Inputs): [AGOTSI, Komi, ssss@ss.com, ssss, 19, M, france]
+
+2021-06-29 11:15:32,331 [http-nio-8080-exec-5] INFO  c.a.a.codingame.aspects.LoggingAspect              - 
+Execution Time: 6 ms [REQUESTED_ID: 255bf072-56db-4de6-aa7e-bda8aeb0fc5b] [API: com.atos.airfrance.codingame.controllers.UserController.add] 
+ [RESPONSE(OUTPUT): <201 CREATED Created,User(id=22, firstName=Komi, lastName=AGOTSI, email=ssss@ss.com, password=ssss, age=19, gender=M),[]>]

@@ -1,4 +1,4 @@
-package com.atos.airfrance.codingame.aspect;
+package com.atos.airfrance.codingame.aspects;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
