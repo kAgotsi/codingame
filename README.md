@@ -37,5 +37,4 @@ Once the tools have been installed and the environment prepared, download the ap
 `https://github.com/kAgotsi/codingame.git`
 
 ### Wiki
-
-`https://github.com/kAgotsi/codingame/wiki`
+https://github.com/kAgotsi/codingame/wiki
